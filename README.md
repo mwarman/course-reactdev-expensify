@@ -22,5 +22,6 @@ This repository contains work associated with the Udemy course [The Complete Rea
 [React](https://reactjs.org/docs)  
 [React Modal](https://reactcommunity.org/react-modal/)  
 [React Router](https://reacttraining.com/react-router/web/guides/philosophy)    
+[Redux](https://redux.js.org/)  
 [normalize.css](https://necolas.github.io/normalize.css/)  
 [validator](https://www.npmjs.com/package/validator)  
