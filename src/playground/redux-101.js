@@ -3,15 +3,20 @@ import { createStore } from 'redux';
 // Redux Store - a container for application state
 
 const store = createStore((state = { count: 0 }, action) => {
-  console.log('running', action);
   switch (action.type) {
     case 'INCREMENT':
+      const incrementBy = typeof action.incrementBy === 'number' ? action.incrementBy : 1;
       return {
-        count: state.count + 1
+        count: state.count + incrementBy
       };
     case 'DECREMENT':
+      const decrementBy = typeof action.decrementBy === 'number' ? action.decrementBy : 1;
       return {
-        count: state.count - 1
+        count: state.count - decrementBy
+      };
+    case 'SET':
+      return {
+        count: action.count
       };
     case 'RESET':
       return {
@@ -22,27 +27,37 @@ const store = createStore((state = { count: 0 }, action) => {
   };
 });
 
-console.log(store.getState());
+const unsubscribe = store.subscribe(() => {
+  console.log(store.getState());
+})
 
 // Redux Action - an object that is sent to the store
 
 // Increment the count state
 store.dispatch({
-  type: 'INCREMENT'
+  type: 'INCREMENT',
+  incrementBy: 5
 });
 store.dispatch({
   type: 'INCREMENT'
 });
-console.log(store.getState());
 
 // Reset the count state
 store.dispatch({
   type: 'RESET'
 });
-console.log(store.getState());
 
 // Decrement the count state
 store.dispatch({
+  type: 'DECREMENT',
+  decrementBy: 5
+});
+store.dispatch({
   type: 'DECREMENT'
 });
-console.log(store.getState());
+
+// Explicitly set the count state
+store.dispatch({
+  type: 'SET',
+  count: 101
+})
