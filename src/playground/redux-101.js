@@ -18,9 +18,11 @@ const resetCount = () => ({
   type: 'RESET'
 });
 
-// Redux Store - a container for application state
+// Reducers
+//   1. Reducers are pure functions. i.e. the output is ONLY determined by the inputs; nothing outside the function
+//   2. Never change the state or action input values
 
-const store = createStore((state = { count: 0 }, action) => {
+const countReducer = (state = { count: 0 }, action) => {
   switch (action.type) {
     case 'INCREMENT':
       return {
@@ -41,7 +43,11 @@ const store = createStore((state = { count: 0 }, action) => {
     default:
       return state;
   };
-});
+};
+
+// Redux Store - a container for application state
+
+const store = createStore(countReducer);
 
 const unsubscribe = store.subscribe(() => {
   console.log(store.getState());
