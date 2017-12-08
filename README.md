@@ -17,6 +17,10 @@ This repository contains work associated with the Udemy course [The Complete Rea
 [SASS](http://sass-lang.com/guide)  
 [Webpack](https://webpack.js.org/configuration/)
 
+**Test**
+
+[Jest](https://facebook.github.io/jest/)  
+
 **Production**
 
 [React](https://reactjs.org/docs)  
