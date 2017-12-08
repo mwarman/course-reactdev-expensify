@@ -57,3 +57,5 @@ typings/
 # dotenv environment variables file
 .env
 
+# Jest snapshot files
+__snapshots__

@@ -20,6 +20,7 @@ This repository contains work associated with the Udemy course [The Complete Rea
 **Test**
 
 [Jest](https://facebook.github.io/jest/)  
+[react-test-renderer](https://facebook.github.io/jest/docs/en/snapshot-testing.html)  
 
 **Production**
 
