@@ -20,7 +20,8 @@ This repository contains work associated with the Udemy course [The Complete Rea
 **Test**
 
 [Jest](https://facebook.github.io/jest/)  
-[react-test-renderer](https://facebook.github.io/jest/docs/en/snapshot-testing.html)  
+[Enzyme](https://github.com/airbnb/enzyme)  
+[enzyme-to-json](https://github.com/adriantoine/enzyme-to-json)  
 
 **Production**
 
