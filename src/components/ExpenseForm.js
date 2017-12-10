@@ -14,7 +14,7 @@ export default class ExpenseForm extends React.Component {
       amount: props.expense ? (props.expense.amount / 100).toString() : '',
       createdAt: props.expense ? moment(props.expense.createdAt) : moment(),
       calendarFocused: false,
-      error: undefined
+      error: ''
     };
   }
 
@@ -47,6 +47,7 @@ export default class ExpenseForm extends React.Component {
 
   onFormSubmit = (e) => {
     e.preventDefault();
+    
     if (!this.state.description || !this.state.amount) {
       this.setState(() => ({ error: 'Please provide description and amount.'}));
     } else {
