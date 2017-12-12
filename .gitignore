@@ -59,3 +59,4 @@ typings/
 
 # generated distribution files
 bundle.js*
+styles.css*
