@@ -58,5 +58,4 @@ typings/
 .env
 
 # generated distribution files
-bundle.js*
-styles.css*
+public/dist/
