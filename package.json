@@ -8,8 +8,10 @@
   "scripts": {
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
-    "serve": "live-server public/",
     "dev-server": "webpack-dev-server",
+    "heroku-postbuild": "yarn run build:prod",
+    "serve": "live-server public/",
+    "start": "node server/server.js",
     "test": "jest --config=jest.config.json"
   },
   "dependencies": {
