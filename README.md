@@ -34,6 +34,7 @@ This repository contains work associated with the Udemy course [The Complete Rea
 [normalize.css](https://necolas.github.io/normalize.css/)  
 [uuid](https://www.npmjs.com/package/uuid)  
 [Moment.js](https://momentjs.com/)  
+[Numeral.js](http://numeraljs.com/)  
 [react-dates](https://github.com/airbnb/react-dates)  
 [validator](https://www.npmjs.com/package/validator)  
 
