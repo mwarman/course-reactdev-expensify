@@ -26,6 +26,7 @@ This repository contains work associated with the Udemy course [The Complete Rea
 **Production**
 
 [Express](http://expressjs.com/)  
+[Firebase](https://firebase.google.com)  
 [React](https://reactjs.org/docs)  
 [React Modal](https://reactcommunity.org/react-modal/)  
 [React Router](https://reacttraining.com/react-router/web/guides/philosophy)  
