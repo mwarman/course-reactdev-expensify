@@ -11,6 +11,32 @@ const config = {
 
 firebase.initializeApp(config);
 
-firebase.database().ref().set({
-  name: 'Matthew Warman'
+const database = firebase.database();
+
+database.ref().set({
+  name: 'Matthew Warman',
+  age: 39,
+  isSingle: false,
+  location: {
+    city: 'Raleigh',
+    country: 'United States'
+  }
+}).then(() => {
+  console.log('Data is saved!');
+}).catch((err) => {
+  console.log('Firebase error:', err);
+});
+
+// database.ref().set('This is my data.');
+
+// database.ref('age').set(33);
+// database.ref('location/city').set('Wilmington');
+
+database.ref('attributes').set({
+  height: 76,
+  weight: 175
+}).then(() => {
+  console.log('Attributes are set!');
+}).catch((err) => {
+  console.log('Firebase error:', err);
 });
