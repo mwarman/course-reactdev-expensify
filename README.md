@@ -22,6 +22,7 @@ This repository contains work associated with the Udemy course [The Complete Rea
 [Jest](https://facebook.github.io/jest/)  
 [Enzyme](https://github.com/airbnb/enzyme)  
 [enzyme-to-json](https://github.com/adriantoine/enzyme-to-json)  
+[redux-mock-store](http://arnaudbenard.com/redux-mock-store/)  
 
 **Production**
 
@@ -32,6 +33,7 @@ This repository contains work associated with the Udemy course [The Complete Rea
 [React Router](https://reacttraining.com/react-router/web/guides/philosophy)  
 [React Redux](https://github.com/reactjs/react-redux)  
 [Redux](https://redux.js.org/)  
+[Redux Thunk](https://github.com/gaearon/redux-thunk)  
 [normalize.css](https://necolas.github.io/normalize.css/)  
 [uuid](https://www.npmjs.com/package/uuid)  
 [Moment.js](https://momentjs.com/)  
