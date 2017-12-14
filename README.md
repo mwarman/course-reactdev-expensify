@@ -19,6 +19,8 @@ This repository contains work associated with the Udemy course [The Complete Rea
 
 **Test**
 
+[cross-env](https://www.npmjs.com/package/cross-env)  
+[dotenv](https://www.npmjs.com/package/dotenv)  
 [Jest](https://facebook.github.io/jest/)  
 [Enzyme](https://github.com/airbnb/enzyme)  
 [enzyme-to-json](https://github.com/adriantoine/enzyme-to-json)  
