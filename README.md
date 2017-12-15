@@ -32,16 +32,16 @@ This repository contains work associated with the Udemy course [The Complete Rea
 [Firebase](https://firebase.google.com)  
 [history](https://www.npmjs.com/package/history)  
 [React](https://reactjs.org/docs)  
+[react-dates](https://github.com/airbnb/react-dates)  
 [React Modal](https://reactcommunity.org/react-modal/)  
 [React Router](https://reacttraining.com/react-router/web/guides/philosophy)  
 [React Redux](https://github.com/reactjs/react-redux)  
 [Redux](https://redux.js.org/)  
 [Redux Thunk](https://github.com/gaearon/redux-thunk)  
 [normalize.css](https://necolas.github.io/normalize.css/)  
-[uuid](https://www.npmjs.com/package/uuid)  
 [Moment.js](https://momentjs.com/)  
 [Numeral.js](http://numeraljs.com/)  
-[react-dates](https://github.com/airbnb/react-dates)  
+[uuid](https://www.npmjs.com/package/uuid)  
 [validator](https://www.npmjs.com/package/validator)  
 
 ### Tools
