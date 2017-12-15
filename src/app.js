@@ -5,6 +5,7 @@ import { Provider } from 'react-redux';
 import AppRouter, { history } from './routers/AppRouter';
 import configureStore from './store/configureStore';
 import { startSetExpenses } from './actions/expenses';
+import { login, logout } from './actions/auth';
 import { firebase } from './firebase/firebase';
 
 import 'normalize.css/normalize.css';
@@ -31,6 +32,7 @@ firebase.auth().onAuthStateChanged((user) => {
   if (user) {
     // logged in
     console.log('logged in. user:', user);
+    store.dispatch(login(user.uid));
     store.dispatch(startSetExpenses()).then(() => {
       renderApp();
       if (history.location.pathname === '/') {
@@ -39,6 +41,7 @@ firebase.auth().onAuthStateChanged((user) => {
     });
   } else {
     // logged out
+    store.dispatch(logout());
     renderApp();
     history.push('/');
   }
