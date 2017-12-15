@@ -30,6 +30,7 @@ This repository contains work associated with the Udemy course [The Complete Rea
 
 [Express](http://expressjs.com/)  
 [Firebase](https://firebase.google.com)  
+[history](https://www.npmjs.com/package/history)  
 [React](https://reactjs.org/docs)  
 [React Modal](https://reactcommunity.org/react-modal/)  
 [React Router](https://reacttraining.com/react-router/web/guides/philosophy)  
