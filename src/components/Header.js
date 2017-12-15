@@ -12,6 +12,7 @@ export const Header = (props) => (
           <h1>Expensify</h1>
         </Link>
         <button
+          className="button button--link"
           onClick={props.startLogout}
         >
           Logout
