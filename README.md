@@ -28,6 +28,7 @@ This repository contains work associated with the Udemy course [The Complete Rea
 
 **Production**
 
+[babel-polyfill](https://babeljs.io/docs/usage/polyfill/)  
 [Express](http://expressjs.com/)  
 [Firebase](https://firebase.google.com)  
 [history](https://www.npmjs.com/package/history)  
